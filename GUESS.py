@@ -65,8 +65,18 @@ if answer.lower() == "random access memory":
 else:
     print("Incorrect answer => correct answer is random access memory !")
 
+ #Q6   
+answer = input("What does ROM stands for - \n")
+if answer.lower() == "read only memory":
+    score+=1
+
+    print("Correct ! Lets go ")
+
+else:
+    print("Incorrect answer => correct answer is read only memory !")
+
 print(f"Good job ! You got {score} questions correct !\n")
 
-print(f"Your score was {(score/5)*100}% \n")
+print(f"Your score was {(score/6)*100}% \n")
 
 print("Make sure to improve the code by adding more question to it or minimising the lines of code because that's what an actual programmer needs I guess !\n")
